@@ -2,9 +2,9 @@ const mysql = require('mysql');
 
 var connection = mysql.createConnection({
     host     : 'localhost',
-    user     : 'ptspl',
-    password : 'Tech@2019',
-    database : 'apiauthentication'
+    user     : '',
+    password : '',
+    database : ''
 });
 
 connection.connect(function(err) {
